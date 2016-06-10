@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/card_view_info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:clickable="true"
+    app:cardUseCompatPadding="false"
+    app:cardPreventCornerOverlap="false"
+    card_view:cardBackgroundColor="@color/app_bg"
+    class="lma.marvelsuperheroes.MainActivity"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@null"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="38dp"
+            android:id="@+id/circleView_info"
+            />
+
+        <TextView
+            android:id="@+id/nome_info"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="20dp"
+            android:textSize="20sp"
+            android:layout_alignTop="@+id/circleView_info"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/circleView_info"
+            android:layout_toEndOf="@+id/circleView_info"
+            android:textColor="@color/app_bg"/>
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+
+

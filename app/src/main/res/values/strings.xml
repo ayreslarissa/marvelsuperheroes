@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Marvel Super Heroes</string>
+
+    <string name="bucky">Bucky Barnes</string>
+    <string name="bucky_descrição">Nome:James Buchanan Barnes. Espécie:	Humano.
+        Inimigos: Barão Zemo, Caveira Vermelha;
+        Codnomes conhecidos: Bucky Barnes, Soldado Invernal;
+        Habilidades: Acrobacias, Super-agilidade, Força sobre-humana, Hábil atirador, Longevidade, Velocidade</string>
+
+    <string name="capitao">Capitão América</string>
+    <string name="capitao_descricao">
+        Nome: Steven "Steve" Grant Rogers;
+        Terra natal: Brooklyn, Nova York;
+        Afiliações:	Esquadrão Vitorioso, Invasores, Vingadores, S.H.I.E.L.D.,Vingadores Secretos;
+        Base de operações: EUA;
+        Situação presente: Vivo;
+        Codinomes conhecidos: Nômade, Capitão;
+        Habilidades: Força sobre-humana, Super resistência, Agilidade sobre-humana, Acrobacias,
+        Perito em táticas militares e de guerrilha, em armas e combate corpo a corpo.</string>
+
+    <string name="descricao_name">Descrição</string>
+    <string name="search_title">Buscar</string>
+    <string name="search_hint">Buscar Herois</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+</resources>
